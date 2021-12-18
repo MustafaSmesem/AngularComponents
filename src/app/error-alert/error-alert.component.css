@@ -1,0 +1,7 @@
+.error-container {
+  padding: 20px;
+  color: darkred;
+  background-color: rgba(150, 50, 50, 0.1);
+  border-radius: 10px;
+  border: darkred solid 1px;
+}

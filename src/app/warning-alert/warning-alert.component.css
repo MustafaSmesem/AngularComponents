@@ -1,0 +1,7 @@
+.warning-container {
+  padding: 20px;
+  color: orange;
+  background-color: rgba(217, 164, 28, 0.1);
+  border-radius: 10px;
+  border: orange solid 1px;
+}

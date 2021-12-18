@@ -1,3 +1,25 @@
-<h1>{{title}}</h1>
-<input type="text" [(ngModel)]="title">
-<button class="btn btn-danger m-2">Submit</button>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>{{title}}</h1>
+      <input type="text" [(ngModel)]="title">
+      <button class="btn btn-danger m-2">Submit</button>
+      <hr>
+      <app-server> </app-server>
+      <app-servers> </app-servers>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-3">
+      <app-success-alert></app-success-alert>
+    </div>
+    <div class="col col-3">
+      <app-warning-alert></app-warning-alert>
+    </div>
+    <div class="col col-3">
+      <app-error-alert></app-error-alert>
+    </div>
+  </div>
+</div>
